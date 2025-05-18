@@ -1,11 +1,11 @@
-package main.java.com.dam.bibliotecaapi.controller;
+package com.dam.bibliotecaapi.controller;
 
-import com.tuapp.bibliotecaapi.model.Autor;
-import com.tuapp.bibliotecaapi.service.AutorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import com.dam.bibliotecaapi.model.Autor;
+import com.dam.bibliotecaapi.service.AutorService;
 import java.util.List;
 import java.util.Optional;
 

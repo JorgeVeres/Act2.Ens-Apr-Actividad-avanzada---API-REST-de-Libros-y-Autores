@@ -1,4 +1,4 @@
-package main.java.com.dam.bibliotecaapi.model;
+package com.dam.bibliotecaapi.model;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;

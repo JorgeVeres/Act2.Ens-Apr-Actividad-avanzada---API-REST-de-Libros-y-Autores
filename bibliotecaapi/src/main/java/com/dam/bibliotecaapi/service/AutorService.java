@@ -1,9 +1,9 @@
-package main.java.com.dam.bibliotecaapi.service;
+package com.dam.bibliotecaapi.service;
 
-import com.tuapp.bibliotecaapi.model.Autor;
-import com.tuapp.bibliotecaapi.repository.AutorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import com.dam.bibliotecaapi.model.Autor;
+import com.dam.bibliotecaapi.repository.AutorRepository;
 import java.util.List;
 import java.util.Optional;
 
